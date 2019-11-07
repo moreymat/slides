@@ -25,10 +25,16 @@ Quelles données Starbucks exploite-t-elle ?
 
 ???
 
-sources:
+---
+
+## Sources
 https://medium.com/locale-ai/site-planning-using-location-data-ae7814973521
 https://fr.statista.com/statistiques/666592/nombre-de-magasins-starbucks-monde/
 https://fr.statista.com/statistiques/565427/chiffre-d-affaire-de-starbucks-dans-le-monde/
+
+http://www.barrywaite.org/gis/projects/fall-2015/Rong%20Dai.pdf
+https://qz.com/334269/what-starbucks-has-done-to-american-home-values/
+https://www.youtube.com/watch?v=5QBBCN3j3RA&t=430s
 
 ---
 
