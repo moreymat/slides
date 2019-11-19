@@ -75,6 +75,7 @@ Sur un petit corpus annoté pour la tâche qui nous intéresse:
 * 2019/06/05 : présentation à la conférence NAACL (best paper) *après plusieurs réutilisations externes* https://www.aclweb.org/anthology/N19-1423/
 * ...
 * 2019/10/25 : annonce de l'intégration à Google Search
+* 2019/11/18 : annonce de l'intégration à Bing Search https://azure.microsoft.com/en-us/blog/bing-delivers-its-largest-improvement-in-search-experience-using-azure-gpus/
 
 À peine 12 mois se sont écoulés entre le pre-print et la mise en production au sein de l'un des produits les plus utilisés au monde.
 
