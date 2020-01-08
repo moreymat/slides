@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+  <head>
+    <title>Les données, or de l’ère de l’information</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Mathieu Morey, Datactivist" />
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/datactivist.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/datactivist-fonts.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Les données, or de l’ère de l’information
+## introduction au colloque “IA et falsification de données”
+### Mathieu Morey, Datactivist
+### Christopher.ai, 2020-01-08
+
+---
+
+
+layout: true
+
+&lt;style&gt;
+.remark-slide-number {
+  position: inherit;
+}
+
+.remark-slide-number .progress-bar-container {
+  position: absolute;
+  bottom: 0;
+  height: 4px;
+  display: block;
+  left: 0;
+  right: 0;
+}
+
+.remark-slide-number .progress-bar {
+  height: 100%;
+  background-color: #e95459;
+}
+
+&lt;/style&gt;
+
+
+&lt;div class='my-footer'&gt;&lt;span&gt;Colloque Christopher.ai&lt;/span&gt; &lt;center&gt;&lt;div class=logo&gt;&lt;img src='https://github.com/datactivist/slides_datactivist/raw/master/inst/rmarkdown/templates/xaringan/resources/img/fond_noir_monochrome.png' width='100px'&gt;&lt;/center&gt;&lt;/span&gt;&lt;/div&gt; 
+
+
+---
+
+class: center, middle
+
+Ces slides en ligne : http://moreymat.github.io/slides/christopher_2020
+
+Sources : https://github.com/moreymat/slides/christopher_2020
+
+&lt;BR&gt;
+
+.center[[![:largeur 80%](https://github.com/datactivist/slides_datactivist/raw/master/inst/rmarkdown/templates/xaringan/resources/img/logo.png)](https://datactivist.coop)]
+
+&lt;BR&gt;
+
+Les productions de Datactivist sont librement réutilisables selon les termes de la licence [Creative Commons 4.0 BY-SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode.fr).
+
+&lt;BR&gt;
+
+![:largeur 40%](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png)
+
+---
+## Les données
+
+.pull-left[![:largeur 80%](img/mika-baumeister-Wpnoqo2plFA-unsplash.jpg)
+
+![:largeur 90%](img/1280px-Station_météorologique_agricole_PULSONIC_Pulsiane.png)]
+.pull-right[![:largeur 90%](img/taylor-vick-M5tzZtFCOfs-unsplash.jpg)
+
+![:largeur 90%](img/clay-banks-E2HgkL3LaFE-unsplash.jpg)]
+
+???
+Photo by Mika Baumeister on Unsplash
+Photo by Taylor Vick on Unsplash
+Photo by Markus Spiske on Unsplash
+Photo by Clay Banks on Unsplash
+
+---
+## Les données au cœur des nouveaux géants
+
+.pull-left[.red[**Netflix / Amazon Video**]
+
+![](img/glenn-carstens-peters-EOQhsfFBhRk-unsplash.jpg)]
+.pull-right[
+- Sélection de contenus
+  * données comportementales face à un contenu (play/pause, avance rapide, 2e passage...)
+- Recommandation de contenus, marketing ciblé
+  * données organiques d'utilisation de la plateforme (historique de visionnage, notes) mise en rapport avec les éléments de contenu]
+
+???
+
+Photo by Glenn Carstens-Peters on Unsplash
+
+---
+
+## Les données au cœur des nouveaux géants
+
+.pull-left[.red[**Starbucks**]
+
+![](img/tr-jy4t6SY9Ax0-unsplash.jpg)]
+.pull-right[
+- Sélection d'implantation
+  * données socio-démographiques : revenu moyen, âge, taux d'équipement... des usagers et habitants
+  * données d'environnement : bureaux et commerces alentour, transport, sécurité
+- Gestion de l'activité (approvisionnement, personnel)
+  * données sur les événements
+  * données météo]
+
+???
+
+https://medium.com/locale-ai/site-planning-using-location-data-ae7814973521
+
+
+---
+## “Datafication” : la mise en données du monde
+&gt; “L'immense gisement de données numériques découle de la capacité à paramétrer des aspects du monde et de la vie humaine qui n'avaient encore jamais été quantifiés. On peut qualifier ce processus de **« mise en données » (datafication)**. 
+
+&gt; […] “La mise en données désigne autre chose que la numérisation, laquelle consiste à traduire un contenu analogique - texte, film, photographie - en une séquence de 1 et de 0 lisible par un ordinateur. Elle se réfère à une action bien plus vaste, et aux implications encore insoupçonnées : **numériser non plus des documents, mais tous les aspects de la vie**.”
+
+.footnote[[Kenneth Cukier, “Mise en données du monde, le déluge numérique”](https://www.monde-diplomatique.fr/2013/07/CUKIER/49318)]
+
+---
+## Vers une définition des données
+
+.pull-left[![:largeur 70%](img/kitchin.jpg)]
+.pull-right[
+&gt; *Data are commonly understood to be the raw material produced by **abstracting the world** into categories, measures and other representational forms – numbers, characters, symbols, images, sounds, electromagnetic waves, bits – that constitute the **building blocks** from which information and knowledge are created.*
+]
+
+---
+class:middle
+## Données, captées ou obtenues ?
+
+&gt; *Technically, then, what we understand as data are actually **capta** (derived from the Latin capere, meaning ‘to take’); those units of data that have been selected and harvested from the sum of all potential data.*
+
+[Kitchin, 2014](https://books.google.fr/books?hl=fr&amp;lr=&amp;id=GfOICwAAQBAJ&amp;oi=fnd&amp;pg=PP1&amp;dq=kitchin+data+revolution&amp;ots=pcyfMTZh-V&amp;sig=dQyPTL3AIN_4RdWvtBFw4VjdAa4#v=onepage&amp;q=kitchin%20data%20revolution&amp;f=false)
+
+&gt; « Décidément, on ne devrait jamais parler de “données”, mais toujours d’ “obtenues”. » 
+
+Bruno Latour, 1993
+
+---
+## La pyramide DIKW
+
+
+.pull-left[Ackoff (1989), Rowley (2007)
+
+.center[![:largeur 120%](./img/dikw.png)]
+*.tiny[The Knowledge Pyramid (Wikimedia Commons, by Longlivetheux, CC-BY-SA)]*
+]
+.pull-right[- W: jugement humain ; mobilisation de connaissances pour l'.red[**action**]
+
+- K: mobilisation d'informations pour contrôler un système ou construire un .red[**modèle**]
+
+- I: données utilisables, pertinentes, traitées, inférées ; données mobilisées pour la .red[**réponse à une question**]
+
+- D: représentations symboliques des .red[**propriétés**] des objets, des événements et de leur environnement]
+
+
+???
+
+- données : mesures, observations, faits... nombres, mots, phrases...
+
+---
+## Les données : or, pétrole, ou autre chose?
+
+.pull-left[![:largeur 70%](img/61DeBIJn5wL.jpg)]
+.pull-right[Les données sont des .red[**actifs intangibles**]:
+
+- scalables: copies à coût négligeable
+
+- irrécupérables: valeur de revente faible (sauf concurrents)
+
+- diffusables: capture facilitée par l'effet réseau
+
+- synergisables: valeur augmentée par le croisement]
+
+---
+class: inverse, center, middle
+
+# Merci !
+
+Contact : [mathieu@datactivist.coop](mailto:mathieu@datactivist.coop)
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script src="macros.js"></script>
+<script src="https://platform.twitter.com/widgets.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"slideNumberFormat": "<div class=\"progress-bar-container\">   <div class=\"progress-bar\" style=\"width: calc(%current% / %total% * 100%);\">   </div> </div>` "
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
